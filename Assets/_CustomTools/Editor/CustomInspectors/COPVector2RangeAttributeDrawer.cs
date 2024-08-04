@@ -16,7 +16,7 @@ namespace Cooperative.Tools
             var xValue = EditorGUILayout.Slider("x", property.vector2Value.x, rangeAttribute.Min, rangeAttribute.Max);
             var yValue = EditorGUILayout.Slider("y", property.vector2Value.y, rangeAttribute.Min, rangeAttribute.Max);
             EditorGUILayout.EndVertical();
-            
+
             property.vector2Value = new Vector2(xValue, yValue);
         }
     }

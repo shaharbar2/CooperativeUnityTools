@@ -1,4 +1,4 @@
-using  Cooperative.Attributes;
+using Cooperative.Attributes;
 using UnityEngine;
 
 namespace Cooperative.Examples
